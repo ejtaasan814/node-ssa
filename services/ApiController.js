@@ -295,7 +295,7 @@ class ApiController {
     }
     
     if(result){
-      response.result = result
+      response.results = result
     }
     
     // logger.token('postresponse', function (req, res) { return JSON.stringify(response) })
