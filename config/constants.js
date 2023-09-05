@@ -20,7 +20,18 @@ const constants = {
   
   USSC_NOTIFICATION_ALL: '/Notification/getActive',
   
+  //LIFEGUARD
   USSC_LIFEGUARD_FEE_INQUIRY : '/LifeGuard/feeInquiry',
+  USSC_LIFEGUARD_GET_BENEFICIARIES : '/LifeGuard/getBeneficiaries',
+  USSC_LIFEGUARD_GET_TYPES : '/LifeGuard/getTypes',
+  USSC_LIFEGUARD_GET_FILE : '/LifeGuard/getFile/',
+  USSC_LIFEGUARD_GET_POLICIES : '/LifeGuard/myPolicies',
+
+  //HOSPIGUARD
+  HOSPIGUARD_GET_OPTIONS : '/Hospiguard/getOptions',
+  HOSPIGUARD_GET_FILE : '/Hospiguard/getFile/',
+  HOSPIGUARD_TRANSACTION_INQUIRY : '/Hospiguard/transactionInquiry',
+  HOSPIGUARD_POST_TRANSACTION : '/Hospiguard/postTransaction',
 
   USSC_OAUTH_CLIENT_ID : 'zJ1yiTuVMYvn1yrjbixqzIeaJ5y0HcZW',
   USSC_OAUTH_CLIENT_SECRET : 'fumzalPdaDj0k1X28HwRzPN6689OaWt9',
