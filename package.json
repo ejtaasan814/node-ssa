@@ -16,10 +16,14 @@
     "jade": "~1.11.0",
     "mariadb": "^3.2.0",
     "mysql": "^2.18.1",
+    "pkcs7-padding": "^0.1.1",
+    "rijndael-js": "^2.0.0",
     "winston": "^3.10.0",
     "winston-daily-rotate-file": "^4.7.1"
   },
   "devDependencies": {
+    "@types/pkcs7-padding": "^0.1.1",
+    "@types/rijndael-js": "^1.0.0",
     "node-dev": "^8.0.0"
   }
 }

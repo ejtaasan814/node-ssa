@@ -1,0 +1,363 @@
+2023-09-21 05:41:43 info: ------------------------------------------
+2023-09-21 05:41:43 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 05:41:43 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 05:41:44 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 05:41:44 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1861749,"sms_provider":"busybee","reference_no":"CSP-120230921014441-1861749","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"d49c856e-3add-488c-9aeb-af4ab102c3ca\",\"Custom\":null}]}"},"message":"Success","completed_in":0.09263396263122559,"ts":"2023-09-21 13:41:44"})
+2023-09-21 05:41:44 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"0eedaccf-7587-47de-9660-750657e4f59c","request_id":"","ts":"2023-09-21 5:41:44"}
+2023-09-21 05:41:44 info: SSA ERROR RESPONSE
+2023-09-21 05:41:44 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":519711,"expiration":"2023-09-21 5:51:44"},"status":"0"}
+2023-09-21 05:41:44 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_refere...' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_reference_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - parameters:['USSC','639465221959','Your One Time Password (OTP) is: 519711, please enter within 10 minutes to p...]","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 05:44:27 info: ------------------------------------------
+2023-09-21 05:44:27 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 05:44:27 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 05:44:27 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 05:44:27 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1861982,"sms_provider":"busybee","reference_no":"CSP-120230921012744-1861982","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"4926a35a-416e-4d82-a68f-c1fc1d79643e\",\"Custom\":null}]}"},"message":"Success","completed_in":0.1063230037689209,"ts":"2023-09-21 13:44:27"})
+2023-09-21 05:44:27 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_refere...' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_reference_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - parameters:['USSC','639465221959','Your One Time Password (OTP) is: 519711, please enter within 10 minutes to p...]","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 05:44:27 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"2e98690a-97c8-4701-832f-6eb8d69690a7","request_id":"","ts":"2023-09-21 5:44:27"}
+2023-09-21 05:44:27 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"4926a35a-416e-4d82-a68f-c1fc1d79643e\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921012744-1861982"}
+2023-09-21 05:44:27 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"519711","expiration":"2023-09-21 5:54:27"},"status":"0"}
+2023-09-21 05:44:27 info: SSA ERROR RESPONSE
+2023-09-21 05:46:51 info: ------------------------------------------
+2023-09-21 05:46:51 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 05:46:51 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 05:46:51 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 05:46:52 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1862150,"sms_provider":"busybee","reference_no":"CSP-120230921015246-1862150","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"107191d6-db70-48b6-a3b3-c4aee2f59d60\",\"Custom\":null}]}"},"message":"Success","completed_in":0.09889698028564453,"ts":"2023-09-21 13:46:52"})
+2023-09-21 05:46:52 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 5:46:52","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"107191d6-db70-48b6-a3b3-c4aee2f59d60\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921015246-1862150"}
+2023-09-21 05:46:52 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_refere...' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_reference_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - parameters:['USSC','639465221959','Your One Time Password (OTP) is: 519711, please enter within 10 minutes to p...]","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 05:46:52 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"519711","expiration":"2023-09-21 5:56:51"},"status":"0"}
+2023-09-21 05:46:52 info: SSA ERROR RESPONSE
+2023-09-21 05:46:52 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"43f47846-b7e9-4a73-b34a-4060672cd7b1","request_id":"","ts":"2023-09-21 5:46:52"}
+2023-09-21 05:49:56 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 05:49:56 info: ------------------------------------------
+2023-09-21 05:49:56 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 05:49:57 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 05:49:57 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1862367,"sms_provider":"busybee","reference_no":"CSP-120230921015749-1862367","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"01f1d1b7-8214-406f-9845-0b3892f840c0\",\"Custom\":null}]}"},"message":"Success","completed_in":0.09344816207885742,"ts":"2023-09-21 13:49:57"})
+2023-09-21 05:49:57 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 5:49:57","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"01f1d1b7-8214-406f-9845-0b3892f840c0\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921015749-1862367"}
+2023-09-21 05:49:57 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_refere...' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_reference_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - parameters:['USSC','639465221959','Your One Time Password (OTP) is: 519711, please enter within 10 minutes to p...]","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 05:49:57 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"519711","expiration":"2023-09-21 5:59:56"},"status":"0"}
+2023-09-21 05:49:57 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"6d25fc1e-7221-4bb9-8ed5-8ff946290390","request_id":"","ts":"2023-09-21 5:49:57"}
+2023-09-21 05:49:57 info: SSA ERROR RESPONSE
+2023-09-21 05:53:51 info: ------------------------------------------
+2023-09-21 05:53:51 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 05:53:51 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 05:53:51 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 05:53:52 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1862622,"sms_provider":"busybee","reference_no":"CSP-120230921015253-1862622","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"6481e4f8-8fd5-42aa-9509-841809e22b2e\",\"Custom\":null}]}"},"message":"Success","completed_in":0.1509099006652832,"ts":"2023-09-21 13:53:52"})
+2023-09-21 05:53:52 info: ERROR {}
+2023-09-21 05:53:52 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 5:53:52","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"6481e4f8-8fd5-42aa-9509-841809e22b2e\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921015253-1862622"}
+2023-09-21 05:53:52 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"519711","expiration":"2023-09-21 6:3:51"},"status":"0"}
+2023-09-21 05:53:52 info: SSA ERROR RESPONSE
+2023-09-21 05:53:52 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"79f32e32-c03f-46d7-9cc8-1aac3d83e86d","request_id":"","ts":"2023-09-21 5:53:52"}
+2023-09-21 05:54:24 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 05:54:24 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 05:54:24 info: ------------------------------------------
+2023-09-21 05:56:20 info: ------------------------------------------
+2023-09-21 05:56:20 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 05:56:20 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 05:56:20 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 05:56:20 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1862771,"sms_provider":"busybee","reference_no":"CSP-120230921012056-1862771","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"522d7ea0-864d-43fd-b66b-0883ae05d7c3\",\"Custom\":null}]}"},"message":"Success","completed_in":0.09604501724243164,"ts":"2023-09-21 13:56:20"})
+2023-09-21 05:56:20 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"519711","expiration":"2023-09-21 6:6:20"},"status":"0"}
+2023-09-21 05:56:20 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"55715d90-8cdf-4ef7-bfa7-7e57ff51d29d","request_id":"","ts":"2023-09-21 5:56:20"}
+2023-09-21 05:56:20 info: ERROR {}
+2023-09-21 05:56:20 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 5:56:20","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"522d7ea0-864d-43fd-b66b-0883ae05d7c3\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921012056-1862771"}
+2023-09-21 05:56:20 info: SSA ERROR RESPONSE
+2023-09-21 05:57:15 info: ------------------------------------------
+2023-09-21 05:57:15 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 05:57:15 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 05:57:15 info: SSA ERROR RESPONSE
+2023-09-21 05:57:15 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 05:57:15 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"52b92e87-3832-4a86-a36e-b427995e9cdf","request_id":"","ts":"2023-09-21 5:57:15"}
+2023-09-21 05:58:59 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 05:58:59 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 05:58:59 info: ------------------------------------------
+2023-09-21 05:58:59 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 05:59:00 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1862947,"sms_provider":"busybee","reference_no":"CSP-120230921010059-1862947","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"6e8e26ab-2f66-4b43-a4d9-8fb515f1bf19\",\"Custom\":null}]}"},"message":"Success","completed_in":0.09563493728637695,"ts":"2023-09-21 13:59:00"})
+2023-09-21 05:59:00 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 519711, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 5:59:0","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"6e8e26ab-2f66-4b43-a4d9-8fb515f1bf19\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921010059-1862947"}
+2023-09-21 05:59:00 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"519711","expiration":"2023-09-21 6:8:59"},"status":"0"}
+2023-09-21 05:59:00 info: SSA ERROR RESPONSE
+2023-09-21 05:59:00 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"5fc9c7ad-bf98-4674-80e3-baacba335a41","request_id":"","ts":"2023-09-21 5:59:0"}
+2023-09-21 05:59:00 info: ERROR {}
+2023-09-21 06:00:13 info: ------------------------------------------
+2023-09-21 06:00:14 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:00:14 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:00:14 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:00:14 info: SSA ERROR RESPONSE
+2023-09-21 06:00:14 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"fec76411-7549-48f3-aa23-0dd29679e310","request_id":"","ts":"2023-09-21 6:0:14"}
+2023-09-21 06:10:00 info: ------------------------------------------
+2023-09-21 06:10:00 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:10:00 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:10:00 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:10:00 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1863645,"sms_provider":"busybee","reference_no":"CSP-120230921020010-1863645","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"751f567e-cfaa-4d99-9166-cf581330973e\",\"Custom\":null}]}"},"message":"Success","completed_in":0.1183481216430664,"ts":"2023-09-21 14:10:00"})
+2023-09-21 06:10:00 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 6:10:0","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"751f567e-cfaa-4d99-9166-cf581330973e\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921020010-1863645"}
+2023-09-21 06:10:00 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"85737a59-63bd-4803-8fe8-59f0fe5d056f","request_id":"","ts":"2023-09-21 6:10:0"}
+2023-09-21 06:10:00 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_refere...' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_reference_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - parameters:['USSC','639465221959','TEST','2023-09-21 6:10:0',1,'TEST','RESEND','busybee','CSP-120230921020010-1...]","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 06:10:00 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":837879,"expiration":"2023-09-21 6:20:0"},"status":"0"}
+2023-09-21 06:10:00 info: SSA ERROR RESPONSE
+2023-09-21 06:13:00 info: ------------------------------------------
+2023-09-21 06:13:00 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:13:00 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:13:01 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:13:01 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1863865,"sms_provider":"busybee","reference_no":"CSP-120230921020113-1863865","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"0b033fc7-59f5-4280-9827-7ae7dd5bf055\",\"Custom\":null}]}"},"message":"Success","completed_in":0.1146249771118164,"ts":"2023-09-21 14:13:01"})
+2023-09-21 06:13:01 info: SSA ERROR RESPONSE
+2023-09-21 06:13:01 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 6:13:1","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"0b033fc7-59f5-4280-9827-7ae7dd5bf055\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921020113-1863865"}
+2023-09-21 06:13:01 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"dfe7da4f-83f0-4ce4-94e1-cf0b0c2046bf","request_id":"","ts":"2023-09-21 6:13:1"}
+2023-09-21 06:13:01 info: SMS JSON POST ["USSC","639465221959","TEST","2023-09-21 6:13:1",1,"TEST","RESEND","busybee","CSP-120230921020113-1863865"]
+2023-09-21 06:13:01 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_refere...' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_reference_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - parameters:['USSC','639465221959','TEST','2023-09-21 6:13:1',1,'TEST','RESEND','busybee','CSP-120230921020113-1...]","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 06:13:01 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 6:23:0"},"status":"0"}
+2023-09-21 06:16:35 info: ------------------------------------------
+2023-09-21 06:16:35 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:16:35 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:16:35 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:16:35 info: SMS JSON POST ["USSC","639465221959","TEST","2023-09-21 6:13:1",1,"TEST","RESEND","busybee","CSP-120230921023516-1864112"]
+2023-09-21 06:16:35 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_refere...' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_reference_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - parameters:['USSC','639465221959','TEST','2023-09-21 6:13:1',1,'TEST','RESEND','busybee','CSP-120230921023516-1...]","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 06:16:35 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 6:13:1","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"44105e1d-07d1-42f1-a373-d4845d161b18\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921023516-1864112"}
+2023-09-21 06:16:35 info: SSA ERROR RESPONSE
+2023-09-21 06:16:35 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1864112,"sms_provider":"busybee","reference_no":"CSP-120230921023516-1864112","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"44105e1d-07d1-42f1-a373-d4845d161b18\",\"Custom\":null}]}"},"message":"Success","completed_in":0.10081815719604492,"ts":"2023-09-21 14:16:35"})
+2023-09-21 06:16:35 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 6:26:35"},"status":"0"}
+2023-09-21 06:16:35 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"e7a30333-11c2-4e19-8247-8413487f2bd8","request_id":"","ts":"2023-09-21 6:16:35"}
+2023-09-21 06:17:29 info: ------------------------------------------
+2023-09-21 06:17:29 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:17:29 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:17:29 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:17:29 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"08e05ad1-70db-41f9-bf38-d987e9f7dfd5","request_id":"","ts":"2023-09-21 6:17:29"}
+2023-09-21 06:17:29 info: SSA ERROR RESPONSE
+2023-09-21 06:17:32 info: ------------------------------------------
+2023-09-21 06:17:32 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:17:32 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:17:32 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:17:32 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"2ee851d0-5710-45f6-8064-b8207a513665","request_id":"","ts":"2023-09-21 6:17:32"}
+2023-09-21 06:17:32 info: SSA ERROR RESPONSE
+2023-09-21 06:17:34 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:17:34 info: ------------------------------------------
+2023-09-21 06:17:34 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:17:34 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:17:34 info: SSA ERROR RESPONSE
+2023-09-21 06:17:34 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"b5af0202-fe47-450b-ae79-862ff673c1c6","request_id":"","ts":"2023-09-21 6:17:34"}
+2023-09-21 06:18:08 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:08 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:08 info: ------------------------------------------
+2023-09-21 06:18:08 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:08 info: SSA ERROR RESPONSE
+2023-09-21 06:18:08 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"4a243201-c62f-498e-9062-621d90d2f216","request_id":"","ts":"2023-09-21 6:18:8"}
+2023-09-21 06:18:12 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:12 info: ------------------------------------------
+2023-09-21 06:18:12 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:12 info: SSA ERROR RESPONSE
+2023-09-21 06:18:12 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:12 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"7713a15a-b68e-4e24-a617-fe2a1c4b8717","request_id":"","ts":"2023-09-21 6:18:12"}
+2023-09-21 06:18:13 info: ------------------------------------------
+2023-09-21 06:18:13 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:13 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:13 info: SSA ERROR RESPONSE
+2023-09-21 06:18:13 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:13 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"dca2885d-0da4-4566-9810-d93c2c7bb1b5","request_id":"","ts":"2023-09-21 6:18:13"}
+2023-09-21 06:18:15 info: ------------------------------------------
+2023-09-21 06:18:15 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:15 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:15 info: SSA ERROR RESPONSE
+2023-09-21 06:18:15 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:15 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"42f01dfe-e9c5-4606-87e9-65ec59a07935","request_id":"","ts":"2023-09-21 6:18:15"}
+2023-09-21 06:18:16 info: ------------------------------------------
+2023-09-21 06:18:16 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:16 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:16 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"fbd1b4ff-c2eb-4564-86b0-be86df86672d","request_id":"","ts":"2023-09-21 6:18:16"}
+2023-09-21 06:18:16 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:16 info: SSA ERROR RESPONSE
+2023-09-21 06:18:18 info: ------------------------------------------
+2023-09-21 06:18:18 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:18 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:18 info: SSA ERROR RESPONSE
+2023-09-21 06:18:18 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:18 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"c4012c86-2d8c-4516-8aab-ed7d06676049","request_id":"","ts":"2023-09-21 6:18:18"}
+2023-09-21 06:18:19 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:19 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:19 info: ------------------------------------------
+2023-09-21 06:18:19 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:19 info: SSA ERROR RESPONSE
+2023-09-21 06:18:19 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"e6e124da-a3f1-4159-b4a2-9744e6efb96f","request_id":"","ts":"2023-09-21 6:18:19"}
+2023-09-21 06:18:20 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:20 info: ------------------------------------------
+2023-09-21 06:18:20 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:20 info: SSA ERROR RESPONSE
+2023-09-21 06:18:20 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:20 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"17e454c0-1182-4ca6-87ec-d62c98772231","request_id":"","ts":"2023-09-21 6:18:20"}
+2023-09-21 06:18:22 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:22 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:22 info: ------------------------------------------
+2023-09-21 06:18:22 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:22 info: SSA ERROR RESPONSE
+2023-09-21 06:18:22 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"f39cf148-e9c0-431b-8694-ad711bf530fe","request_id":"","ts":"2023-09-21 6:18:22"}
+2023-09-21 06:18:23 info: ------------------------------------------
+2023-09-21 06:18:23 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:23 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:23 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:23 info: SSA ERROR RESPONSE
+2023-09-21 06:18:23 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"a32f8864-f551-4b93-bd74-ee972d5bff8a","request_id":"","ts":"2023-09-21 6:18:23"}
+2023-09-21 06:18:24 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:24 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:24 info: ------------------------------------------
+2023-09-21 06:18:24 info: SSA ERROR RESPONSE
+2023-09-21 06:18:24 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"a00b1f64-f17f-418e-b202-2ca6af70900a","request_id":"","ts":"2023-09-21 6:18:24"}
+2023-09-21 06:18:24 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:25 info: ------------------------------------------
+2023-09-21 06:18:25 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:25 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:25 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:25 info: SSA ERROR RESPONSE
+2023-09-21 06:18:25 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"2d2e3ad7-b133-49ea-a12f-007f608871e3","request_id":"","ts":"2023-09-21 6:18:25"}
+2023-09-21 06:18:27 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:27 info: ------------------------------------------
+2023-09-21 06:18:27 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:27 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:18:27 info: SSA ERROR RESPONSE
+2023-09-21 06:18:27 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"01e6e165-6a1e-44de-bef5-855f17c53600","request_id":"","ts":"2023-09-21 6:18:27"}
+2023-09-21 06:18:44 info: ------------------------------------------
+2023-09-21 06:18:44 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:18:44 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:18:44 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:18:45 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 06:13:1","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"13ec2ee3-f35f-4c76-93ad-223e065ac299\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921024518-1864232"}
+2023-09-21 06:18:45 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 6:28:44"},"status":"0"}
+2023-09-21 06:18:45 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1864232,"sms_provider":"busybee","reference_no":"CSP-120230921024518-1864232","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"13ec2ee3-f35f-4c76-93ad-223e065ac299\",\"Custom\":null}]}"},"message":"Success","completed_in":0.11644101142883301,"ts":"2023-09-21 14:18:45"})
+2023-09-21 06:18:45 info: SMS JSON POST ["USSC","639465221959","TEST","2023-09-21 06:13:1",1,"TEST","RESEND","busybee","CSP-120230921024518-1864232"]
+2023-09-21 06:18:45 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_refere...' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_reference_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - parameters:['USSC','639465221959','TEST','2023-09-21 06:13:1',1,'TEST','RESEND','busybee','CSP-120230921024518-...]","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 06:18:45 info: SSA ERROR RESPONSE
+2023-09-21 06:18:45 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"15f1d5a5-f5f2-4309-90a7-a9b7f6799d8f","request_id":"","ts":"2023-09-21 6:18:45"}
+2023-09-21 06:20:25 info: ------------------------------------------
+2023-09-21 06:20:25 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:20:25 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:20:25 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:20:25 info: SSA ERROR RESPONSE
+2023-09-21 06:20:25 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"5a767b47-bd88-48c4-b659-80914204c3a3","request_id":"","ts":"2023-09-21 6:20:25"}
+2023-09-21 06:20:28 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:20:28 info: ------------------------------------------
+2023-09-21 06:20:28 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:20:28 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:20:28 info: SSA ERROR RESPONSE
+2023-09-21 06:20:28 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"4047923d-07b3-4ceb-a654-2691d2ec5898","request_id":"","ts":"2023-09-21 6:20:28"}
+2023-09-21 06:22:00 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:22:00 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:22:00 info: ------------------------------------------
+2023-09-21 06:22:00 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:22:01 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1864453,"sms_provider":"busybee","reference_no":"CSP-120230921020122-1864453","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"2d00d904-0e9d-4006-b741-ee1a1a85d5ed\",\"Custom\":null}]}"},"message":"Success","completed_in":0.09353089332580566,"ts":"2023-09-21 14:22:01"})
+2023-09-21 06:22:01 info: SMS JSON POST ["USSC","639465221959","TEST","2023-09-21 06:13:1",1,"TEST","2023-09-21 06:13:1","RESEND","busybee","CSP-120230921020122-1864453"]
+2023-09-21 06:22:01 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 06:13:1","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"2d00d904-0e9d-4006-b741-ee1a1a85d5ed\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921020122-1864453"}
+2023-09-21 06:22:01 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message, datein, status, status_msg, ts, pcode, sms_api, csp_re...' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message, datein, status, status_msg, ts, pcode, sms_api, csp_reference_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) - parameters:['USSC','639465221959','TEST','2023-09-21 06:13:1',1,'TEST','2023-09-21 06:13:1','RESEND','bu...]","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 06:22:01 info: SSA ERROR RESPONSE
+2023-09-21 06:22:01 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 6:32:0"},"status":"0"}
+2023-09-21 06:22:01 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"8fa3fd4d-85fd-43cc-8093-af13df65e6b3","request_id":"","ts":"2023-09-21 6:22:1"}
+2023-09-21 06:25:37 info: ------------------------------------------
+2023-09-21 06:25:37 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:25:37 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:25:37 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:25:37 info: SMS JSON POST ["USSC","639465221959","TEST","2023-09-21 6:25:37",1,"TEST","RESEND","busybee","CSP-120230921023725-1864661"]
+2023-09-21 06:25:37 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 6:35:37"},"status":"0"}
+2023-09-21 06:25:37 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 6:25:37","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"e3341c9d-69b2-4775-8f6f-2929aac3735c\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921023725-1864661"}
+2023-09-21 06:25:37 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1864661,"sms_provider":"busybee","reference_no":"CSP-120230921023725-1864661","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"e3341c9d-69b2-4775-8f6f-2929aac3735c\",\"Custom\":null}]}"},"message":"Success","completed_in":0.09310197830200195,"ts":"2023-09-21 14:25:37"})
+2023-09-21 06:25:37 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_refere...' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message, datein, status, status_msg, pcode, sms_api, csp_reference_no) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) - parameters:['USSC','639465221959','TEST','2023-09-21 6:25:37',1,'TEST','RESEND','busybee','CSP-120230921023725-...]","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 06:25:37 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"67101362-4e21-41fe-8acf-b95dbd8494f3","request_id":"","ts":"2023-09-21 6:25:37"}
+2023-09-21 06:25:37 info: SSA ERROR RESPONSE
+2023-09-21 06:31:48 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:31:48 info: ------------------------------------------
+2023-09-21 06:31:48 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:31:48 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:31:48 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1865063,"sms_provider":"busybee","reference_no":"CSP-120230921024831-1865063","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"dade3058-6092-43ce-a2d2-b863a8ef113f\",\"Custom\":null}]}"},"message":"Success","completed_in":0.11733889579772949,"ts":"2023-09-21 14:31:48"})
+2023-09-21 06:31:48 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 6:41:48"},"status":"0"}
+2023-09-21 06:31:48 info: SMS JSON POST ["USSC","639465221959","TEST"]
+2023-09-21 06:31:48 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"858873c2-64a4-4fad-8525-2e220c2a9515","request_id":"","ts":"2023-09-21 6:31:48"}
+2023-09-21 06:31:48 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 6:31:48","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"dade3058-6092-43ce-a2d2-b863a8ef113f\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921024831-1865063"}
+2023-09-21 06:31:48 info: ERROR {"name":"SqlError","sqlMessage":"Parameter at position 4 is not set","sql":"INSERT INTO `sms_out` (from, msisdn, message) VALUES (?, ?, ?, ?) - parameters:['USSC','639465221959','TEST']","fatal":false,"errno":45016,"sqlState":"HY000","code":"ER_MISSING_PARAMETER"}
+2023-09-21 06:31:48 info: SSA ERROR RESPONSE
+2023-09-21 06:32:34 info: ------------------------------------------
+2023-09-21 06:32:34 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:32:34 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:32:34 info: SSA ERROR RESPONSE
+2023-09-21 06:32:34 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:32:34 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"366e1788-21b9-466c-964e-a9851026f1ee","request_id":"","ts":"2023-09-21 6:32:34"}
+2023-09-21 06:35:22 info: ------------------------------------------
+2023-09-21 06:35:22 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:35:22 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:35:22 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:35:23 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 6:35:23","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"916bfba9-af81-4f65-afc0-234fb04ef564\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921022335-1865283"}
+2023-09-21 06:35:23 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 6:45:22"},"status":"0"}
+2023-09-21 06:35:23 info: SSA ERROR RESPONSE
+2023-09-21 06:35:23 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1865283,"sms_provider":"busybee","reference_no":"CSP-120230921022335-1865283","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"916bfba9-af81-4f65-afc0-234fb04ef564\",\"Custom\":null}]}"},"message":"Success","completed_in":0.10549116134643555,"ts":"2023-09-21 14:35:23"})
+2023-09-21 06:35:23 info: SMS JSON POST ["USSC","639465221959","TEST"]
+2023-09-21 06:35:23 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message) VALUES ('USSC', '639465221959', 'TEST')' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message) VALUES (?, ?, ?) - parameters:['USSC','639465221959','TEST']","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 06:35:23 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"64a1cfe6-def3-4949-9139-b9be45c79a6b","request_id":"","ts":"2023-09-21 6:35:23"}
+2023-09-21 06:36:08 info: ------------------------------------------
+2023-09-21 06:36:08 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:36:08 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:36:08 info: OTP Generate: {"message":"Please wait for 2 minutes before the system can send an OTP.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1"},"status":"0"}
+2023-09-21 06:36:08 info: SSA ERROR RESPONSE
+2023-09-21 06:36:08 info: {"completed_in":0,"status":0,"message":"Please wait for 2 minutes before the system can send an OTP.","session_id":"b261207d-9306-4c76-829a-4cb64bedf84d","request_id":"","ts":"2023-09-21 6:36:8"}
+2023-09-21 06:38:33 info: ------------------------------------------
+2023-09-21 06:38:33 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:38:33 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:39:07 info: ------------------------------------------
+2023-09-21 06:39:07 info: SMS JSON POST ["USSC","639365221959","TEST"]
+2023-09-21 06:39:07 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:39:07 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:39:07 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"e793df4b-53e0-4158-8aa9-9e55b2c8b597","request_id":"","ts":"2023-09-21 6:39:7"}
+2023-09-21 06:39:07 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''from', 'msisdn', 'message') VALUES ('USSC', '639365221959', 'TEST')' at line 1","sql":"INSERT INTO `sms_out` ('from', 'msisdn', 'message') VALUES (?, ?, ?) - parameters:['USSC','639365221959','TEST']","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 06:39:43 info: ------------------------------------------
+2023-09-21 06:39:43 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:39:43 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:39:43 info: SMS JSON POST ["USSC","639365221959","TEST"]
+2023-09-21 06:39:43 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"8ba7a166-2841-4cd3-9c2f-d05b5b507e8c","request_id":"","ts":"2023-09-21 6:39:43"}
+2023-09-21 06:39:43 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, msisdn, message) VALUES ('USSC', '639365221959', 'TEST')' at line 1","sql":"INSERT INTO `sms_out` (from, msisdn, message) VALUES (?, ?, ?) - parameters:['USSC','639365221959','TEST']","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 06:41:48 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:41:48 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:41:48 info: ------------------------------------------
+2023-09-21 06:41:48 info: SMS JSON POST ["639365221959","USSC","TEST"]
+2023-09-21 06:41:48 info: ERROR {"name":"SqlError","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from, message) VALUES ('639365221959', 'USSC', 'TEST')' at line 1","sql":"INSERT INTO `sms_out` (msisdn, from, message) VALUES (?, ?, ?) - parameters:['639365221959','USSC','TEST']","fatal":false,"errno":1064,"sqlState":"42000","code":"ER_PARSE_ERROR"}
+2023-09-21 06:41:48 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"df8090a9-2d7c-46ea-8264-9c846d49f48a","request_id":"","ts":"2023-09-21 6:41:48"}
+2023-09-21 06:42:26 info: ------------------------------------------
+2023-09-21 06:42:26 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:42:26 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:42:26 info: SMS JSON POST ["639365221959","USSC","TEST"]
+2023-09-21 06:42:26 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"31278b9c-fc7c-439e-9f86-c6352731675e","request_id":"","ts":"2023-09-21 6:42:26"}
+2023-09-21 06:44:25 info: ------------------------------------------
+2023-09-21 06:44:25 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:44:25 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:44:25 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:44:25 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 6:44:25","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"23edff2b-b7b8-4338-ad7e-21e1882aefea\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921022544-1865792"}
+2023-09-21 06:44:25 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1865792,"sms_provider":"busybee","reference_no":"CSP-120230921022544-1865792","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"23edff2b-b7b8-4338-ad7e-21e1882aefea\",\"Custom\":null}]}"},"message":"Success","completed_in":0.14276695251464844,"ts":"2023-09-21 14:44:25"})
+2023-09-21 06:44:25 info: SMS JSON POST ["USSC","639465221959",null,"2023-09-21 6:44:25",1,"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"23edff2b-b7b8-4338-ad7e-21e1882aefea\\\",\\\"Custom\\\":null}]}\"","RESEND","busybee","CSP-120230921022544-1865792"]
+2023-09-21 06:44:25 info: {"completed_in":0,"status":0,"message":"Message sending failed. Please try again later.","session_id":"9ee1166f-b4cd-4485-adcc-9f884eafb438","request_id":"","ts":"2023-09-21 6:44:25"}
+2023-09-21 06:44:25 info: SSA ERROR RESPONSE
+2023-09-21 06:44:25 info: OTP Generate: {"message":"Message sending failed. Please try again later.","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 6:54:25"},"status":"0"}
+2023-09-21 06:47:27 info: ------------------------------------------
+2023-09-21 06:47:27 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:47:27 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:47:27 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:47:27 info: SMS JSON POST ["USSC","639465221959",null,"2023-09-21 6:47:27",1,"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"299fd5aa-fce0-49b4-bcd3-9108c4bad193\\\",\\\"Custom\\\":null}]}\"","RESEND","busybee","CSP-120230921022747-1865993"]
+2023-09-21 06:47:27 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1865993,"sms_provider":"busybee","reference_no":"CSP-120230921022747-1865993","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"299fd5aa-fce0-49b4-bcd3-9108c4bad193\",\"Custom\":null}]}"},"message":"Success","completed_in":0.10303902626037598,"ts":"2023-09-21 14:47:27"})
+2023-09-21 06:47:27 info: SMS OUT POST {"from":"USSC","pcode":"RESEND","msisdn":"639465221959","message":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","datein":"2023-09-21 6:47:27","status":1,"status_msg":"\"{\\\"ErrorCode\\\":0,\\\"ErrorDescription\\\":null,\\\"Data\\\":[{\\\"MessageErrorCode\\\":0,\\\"MessageErrorDescription\\\":\\\"Success\\\",\\\"MobileNumber\\\":\\\"639465221959\\\",\\\"MessageId\\\":\\\"299fd5aa-fce0-49b4-bcd3-9108c4bad193\\\",\\\"Custom\\\":null}]}\"","sms_api":"busybee","csp_reference_no":"CSP-120230921022747-1865993"}
+2023-09-21 06:47:27 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"36d225fe-38f1-4a88-bec7-db5c36012a60","request_id":"","ts":"2023-09-21 6:47:27","results":{"message":"Success","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 6:57:27"},"status":"1"}}
+2023-09-21 06:47:27 info: OTP Generate: {"message":"Success","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 6:57:27"},"status":"1"}
+2023-09-21 06:56:01 info: ------------------------------------------
+2023-09-21 06:56:01 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-21 06:56:01 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-21 06:56:02 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 837879, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-21 06:56:02 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":1866459,"sms_provider":"busybee","reference_no":"CSP-120230921020256-1866459","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"d2a5921c-c2b6-4519-8f08-db603c9c0ef0\",\"Custom\":null}]}"},"message":"Success","completed_in":0.15315699577331543,"ts":"2023-09-21 14:56:02"})
+2023-09-21 06:56:02 info: OTP Generate: {"message":"Success","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":"837879","expiration":"2023-09-21 7:6:2"},"status":"1"}
+2023-09-21 06:56:02 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"4f01de5a-fbdb-4d5b-9214-75c46724b614","request_id":"","ts":"2023-09-21 6:56:2"}
+2023-09-21 06:56:28 info: SSA POST DATA {"debug":"1","version":"3.0.30","user_id":"lem123","device_id":"860119042347473","mobileno":"639564612141","otp_code":"508843"}
+2023-09-21 06:56:28 info: {"completed_in":0,"status":0,"message":"We have a new update with SUPER upgrades and improvements to serve you better! \n Download now!","session_id":"4f01de5a-fbdb-4d5b-9214-75c46724b614","request_id":"","ts":"2023-09-21 6:56:28"}
+2023-09-21 06:56:28 info: ------------------------------------------
+2023-09-21 06:56:28 info: SSA API METHOD /api/mobile_otp/verify
+2023-09-21 06:56:28 info: SSA ERROR RESPONSE
+2023-09-21 06:57:00 info: ------------------------------------------
+2023-09-21 06:57:00 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959","otp_code":"508843"}
+2023-09-21 06:57:00 info: SSA API METHOD /api/mobile_otp/verify
+2023-09-21 06:57:00 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":{"user_id":"devej1469","mobile_no":"639465221959","code":""},"session_id":"11ec055a-c64a-4e63-bc16-0e9311d55ab3","request_id":"","ts":"2023-09-21 6:57:0"}
+2023-09-21 06:57:00 info: OTP Verify: {"user_id":"devej1469","mobile_no":"639465221959","code":""}
+2023-09-21 06:57:30 info: ------------------------------------------
+2023-09-21 06:57:30 info: OTP Verify: {"user_id":"devej1469","mobile_no":"639465221959","code":"508843"}
+2023-09-21 06:57:30 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959","otp_code":"508843"}
+2023-09-21 06:57:30 info: SSA API METHOD /api/mobile_otp/verify
+2023-09-21 06:57:30 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":{"user_id":"devej1469","mobile_no":"639465221959","code":"508843"},"session_id":"668370c7-c565-458e-a086-5ad98bae0994","request_id":"","ts":"2023-09-21 6:57:30"}
+2023-09-21 06:58:42 info: ------------------------------------------
+2023-09-21 06:58:42 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"a09cbe56-43e8-4244-8ae6-141177d7bb71","request_id":"","ts":"2023-09-21 6:58:42","results":{"user_id":"devej1469","mobile_no":"639465221959","code":"508843"}}
+2023-09-21 06:58:42 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959","otp_code":"508843"}
+2023-09-21 06:58:42 info: SSA API METHOD /api/mobile_otp/verify
+2023-09-21 06:58:42 info: OTP Verify: {"user_id":"devej1469","mobile_no":"639465221959","code":"508843"}

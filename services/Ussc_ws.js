@@ -71,6 +71,13 @@ class Ussc_ws{
     return result;
   }
 
+  notification_get_details = async (post_data) => {
+    const url = constants.USSC_SERVER + constants.USSC_NOTIFICATION_GET_DETAILS;
+
+    const result = await this.send_request(url, post_data)
+    return result;
+  }
+
   get_access_token = async () => {
 
     const agent = new https.Agent({

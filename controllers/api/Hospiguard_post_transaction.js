@@ -2,12 +2,14 @@
 const { ApiController } = require('../../services/ApiController')
 const { Ussc_ws } = require('../../services/Ussc_ws')
 const constants = require('../../config/constants')
+const { Mcrypt } = require('../../services/Mcrypt')
 const { check, validationResult } = require('express-validator');
 
 class Hospiguard_post_transaction extends ApiController{
   constructor() {
     super()
     this.ussc_ws = new Ussc_ws()
+    this.mcrypt = new Mcrypt()
   }
 
   index = async () => {
@@ -41,9 +43,9 @@ class Hospiguard_post_transaction extends ApiController{
       },
       "panalowallet" : {
         "currency" : panalowallet.currency,
-        "account_no" : "0152015036001"
+        "account_no" : await this.mcrypt.my_decrypt(panalowallet.account_no),
       },
-      "panalokard" : "152015036",
+      "panalokard" : await this.mcrypt.decrypt(this.request.body.panalokard),
       "beneficiary" : {
         "first_name" : beneficiary.first_name,
         "middle_name" : beneficiary.middle_name,
@@ -56,7 +58,7 @@ class Hospiguard_post_transaction extends ApiController{
       "no_of_units" : this.request.body.no_of_units
     }
 
-    const response = await this.ussc_ws.hospiguard_post_transaction(JSON.stringify(post_data));
+    const response = await this.ussc_ws.hospiguard_post_transaction(post_data);
 
     if (!response.success) {
       let error = response.error.msg;

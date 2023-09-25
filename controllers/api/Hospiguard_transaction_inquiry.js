@@ -2,12 +2,14 @@
 const { ApiController } = require('../../services/ApiController')
 const { Ussc_ws } = require('../../services/Ussc_ws')
 const constants = require('../../config/constants')
+const { Mcrypt } = require('../../services/Mcrypt')
 const { check, validationResult } = require('express-validator');
 
 class Hospiguard_transaction_inquiry extends ApiController{
   constructor() {
     super()
     this.ussc_ws = new Ussc_ws()
+    this.mcrypt = new Mcrypt()
   }
 
   index = async () => {
@@ -26,6 +28,8 @@ class Hospiguard_transaction_inquiry extends ApiController{
       return this.output_error(err);
     }
 
+    const panalowallet = JSON.parse(this.request.body.panalowallet)
+
     const post_data = {
       "credentials" : {
         "user_id" : this.user_id,
@@ -34,10 +38,10 @@ class Hospiguard_transaction_inquiry extends ApiController{
       "channel" : {
         "code" : this.request.body.channel_code.toUpperCase()
       },
-      "panalokard" : "152015036",
+      "panalokard" : await this.mcrypt.decrypt(this.request.body.panalokard),
       "filter" : {
         "channel" : this.request.body.channel_code.toUpperCase(),
-        "account_no" : "0152015036001",
+        "account_no" : await this.mcrypt.my_decrypt(panalowallet.account_no),
         "coverage_status" : this.request.body.coverage_status
       },
       "page": this.request.body.page

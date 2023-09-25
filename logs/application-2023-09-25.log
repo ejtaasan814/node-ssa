@@ -1,0 +1,23 @@
+2023-09-25 06:34:30 info: ------------------------------------------
+2023-09-25 06:34:30 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959"}
+2023-09-25 06:34:30 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-25 06:34:30 info: Centrialize SMS Platform POST: {"mobile_no":"639465221959","sms":"Your One Time Password (OTP) is: 989151, please enter within 10 minutes to proceed. No OTP within 10 minutes? Request a new OTP with the USSC Super Service App","pcode":"RESEND"}
+2023-09-25 06:34:30 info: Centrialize SMS Platform ACTUAL RESPONSE.... {"status":1,"api_user_request_id":2003154,"sms_provider":"busybee","reference_no":"CSP-120230925023034-2003154","results":{"body":"{\"ErrorCode\":0,\"ErrorDescription\":null,\"Data\":[{\"MessageErrorCode\":0,\"MessageErrorDescription\":\"Success\",\"MobileNumber\":\"639465221959\",\"MessageId\":\"5677799b-a065-43e6-8395-cd833349525e\",\"Custom\":null}]}"},"message":"Success","completed_in":0.09971094131469727,"ts":"2023-09-25 14:34:30"})
+2023-09-25 06:34:30 info: OTP Generate: {"message":"Success","data":{"user_id":"devej1469","mobile_no":"639465221959","status":"1","code":989151,"expiration":"2023-09-25 6:44:30"},"status":"1"}
+2023-09-25 06:34:30 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"65a41d3d-4f30-4ec9-aa55-b583868cfe7f","request_id":"","ts":"2023-09-25 6:34:30"}
+2023-09-25 06:34:47 info: ------------------------------------------
+2023-09-25 06:34:47 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959","otp_code":"989081"}
+2023-09-25 06:34:47 info: SSA API METHOD /api/mobile_otp/verify
+2023-09-25 06:34:47 info: OTP Verify: {"message":"The OTP you have entered is invalid. Your account will be locked after 3 incorrect tries. \n Number of tries: 1","data":{"user_id":"devej1469","mobile_no":"639465221959","code":"989081"},"status":"0"}
+2023-09-25 06:34:47 info: SSA ERROR RESPONSE
+2023-09-25 06:34:47 info: {"completed_in":0,"status":0,"message":"The OTP you have entered is invalid. Your account will be locked after 3 incorrect tries. \n Number of tries: 1","session_id":"831a4bf1-22e4-4674-a513-e7b0120a6fee","request_id":"","ts":"2023-09-25 6:34:47"}
+2023-09-25 06:35:02 info: SSA API METHOD /api/mobile_otp/verify
+2023-09-25 06:35:02 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959","otp_code":"989151"}
+2023-09-25 06:35:02 info: ------------------------------------------
+2023-09-25 06:35:02 info: OTP Verify: {"message":"OTP Successfully Verified.","data":{"user_id":"devej1469","mobile_no":"639465221959","code":"989151"},"status":"1"}
+2023-09-25 06:35:02 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"dcd1dcc9-3e29-4b95-9b4a-c1a8a4824f92","request_id":"","ts":"2023-09-25 6:35:2","results":"OTP Successfully Verified."}
+2023-09-25 06:35:09 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639465221959","otp_code":"989151"}
+2023-09-25 06:35:09 info: ------------------------------------------
+2023-09-25 06:35:09 info: SSA API METHOD /api/mobile_otp/verify
+2023-09-25 06:35:09 info: OTP Verify: {"message":"OTP Successfully Verified.","data":{"user_id":"devej1469","mobile_no":"639465221959","code":"989151"},"status":"1"}
+2023-09-25 06:35:09 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"585cb836-48c4-4383-ab49-dc998503a138","request_id":"","ts":"2023-09-25 6:35:9","results":"OTP Successfully Verified."}

@@ -1,0 +1,61 @@
+2023-09-13 06:52:06 info: ------------------------------------------
+2023-09-13 06:52:06 info: ACTUAL POST....
+2023-09-13 06:52:06 info: SSA POST DATA {"debug":"1","user_id":"devej1469","device_id":"e959f50d8263e9a5","version":"4","platform":"ios","notification_id":"1","channe_code":"M"}
+2023-09-13 06:52:06 info: URL: https://192.168.205.127:1328/Notification/getDetails
+2023-09-13 06:52:06 info: SSA API METHOD /api/notification_get_details
+2023-09-13 06:52:06 info: {"channel":{"code":"M"},"notification_id":"1"}
+2023-09-13 06:52:08 info: ACTUAL RESPONSE.... {"code":"000000","message":"OK","data":{"notification_id":1,"type":"1","tag":1,"title":"July 26 Promo 1","datein":"26/07/2019 08:04:36","body":"Promo Description","details":"Promo&nbsp;Mechanics"}})
+2023-09-13 06:52:08 info: USSC WEB SERVICE RESPONSE
+2023-09-13 06:52:08 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success.","session_id":"ef25863f-0444-4a18-b031-3bd46f29cc15","request_id":"","ts":"2023-09-13 6:52:8","results":{"notification_id":1,"type":"1","tag":1,"title":"July 26 Promo 1","datein":"26/07/2019 08:04:36","body":"Promo Description","details":"Promo&nbsp;Mechanics"}}
+2023-09-13 09:06:48 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-13 09:06:48 info: {"completed_in":0,"status":0,"message":"We have a new update with SUPER upgrades and improvements to serve you better! \n Download now!","request_id":"","ts":"2023-09-13 9:6:48"}
+2023-09-13 09:06:48 info: ------------------------------------------
+2023-09-13 09:06:48 info: SSA POST DATA {"debug":"1","version":"3.0.30","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:06:48 info: SSA ERROR RESPONSE
+2023-09-13 09:07:01 info: SSA POST DATA {"debug":"1","version":"3.0.30","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:07:01 info: ------------------------------------------
+2023-09-13 09:07:01 info: SSA ERROR RESPONSE
+2023-09-13 09:07:01 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-13 09:07:01 info: {"completed_in":0,"status":0,"message":"We have a new update with SUPER upgrades and improvements to serve you better! \n Download now!","request_id":"","ts":"2023-09-13 9:7:1"}
+2023-09-13 09:07:03 info: ------------------------------------------
+2023-09-13 09:07:03 info: SSA ERROR RESPONSE
+2023-09-13 09:07:03 info: SSA POST DATA {"debug":"1","version":"3.0.30","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:07:03 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-13 09:07:03 info: {"completed_in":0,"status":0,"message":"We have a new update with SUPER upgrades and improvements to serve you better! \n Download now!","request_id":"","ts":"2023-09-13 9:7:3"}
+2023-09-13 09:07:04 info: ------------------------------------------
+2023-09-13 09:07:04 info: SSA POST DATA {"debug":"1","version":"3.0.30","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:07:04 info: SSA ERROR RESPONSE
+2023-09-13 09:07:04 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-13 09:07:04 info: {"completed_in":0,"status":0,"message":"We have a new update with SUPER upgrades and improvements to serve you better! \n Download now!","request_id":"","ts":"2023-09-13 9:7:4"}
+2023-09-13 09:07:47 info: ------------------------------------------
+2023-09-13 09:07:47 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-13 09:07:47 info: SSA POST DATA {"debug":"1","version":"3.0.30","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:07:47 info: {"completed_in":0,"status":0,"message":"We have a new update with SUPER upgrades and improvements to serve you better! \n Download now!","request_id":"","ts":"2023-09-13 9:7:47"}
+2023-09-13 09:07:47 info: SSA ERROR RESPONSE
+2023-09-13 09:08:25 info: ------------------------------------------
+2023-09-13 09:08:25 info: SSA POST DATA {"debug":"1","version":"4s","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:08:25 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-13 09:10:17 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-13 09:10:17 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:10:17 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"360e2f08-0bf4-4db9-8b68-f3b8705bcae8","request_id":"","ts":"2023-09-13 9:10:17","results":"GENERATE"}
+2023-09-13 09:10:17 info: ------------------------------------------
+2023-09-13 09:10:25 info: ------------------------------------------
+2023-09-13 09:10:25 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:10:25 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"9dbeac5d-f4b7-409b-9421-50e5ab1f2945","request_id":"","ts":"2023-09-13 9:10:25","results":"INDEX"}
+2023-09-13 09:10:25 info: SSA API METHOD /api/mobile_otp/
+2023-09-13 09:10:29 info: ------------------------------------------
+2023-09-13 09:10:29 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:10:29 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-13 09:10:29 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"82142975-e3d5-4d41-8c41-4140d20a22b7","request_id":"","ts":"2023-09-13 9:10:29","results":"GENERATE"}
+2023-09-13 09:10:31 info: ------------------------------------------
+2023-09-13 09:10:31 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:10:31 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-13 09:10:31 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"1c2f93bc-3c32-4f6e-a7e6-40b534499ee9","request_id":"","ts":"2023-09-13 9:10:31","results":"GENERATE"}
+2023-09-13 09:10:55 info: ------------------------------------------
+2023-09-13 09:10:55 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"cde6f6e5-2aa2-4918-97d8-5ee3dea46623","request_id":"","ts":"2023-09-13 9:10:55","results":"GENERATE"}
+2023-09-13 09:10:55 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:10:55 info: SSA API METHOD /api/mobile_otp/generate
+2023-09-13 09:11:03 info: SSA POST DATA {"debug":"1","version":"4","user_id":"devej1469","device_id":"860119042347473","mobileno":"639564612141"}
+2023-09-13 09:11:03 info: ------------------------------------------
+2023-09-13 09:11:03 info: SSA API METHOD /api/mobile_otp/verify
+2023-09-13 09:11:03 info: SSA SUCCESS RESPONSE {"completed_in":0,"status":1,"message":"Success","session_id":"3a8e6eb9-7b47-4b59-b2d9-26422ee8756b","request_id":"","ts":"2023-09-13 9:11:3","results":"VERIFY"}

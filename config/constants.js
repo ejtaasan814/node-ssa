@@ -19,6 +19,8 @@ const constants = {
   USSC_SERVER: 'https://192.168.205.127:1328',
   
   USSC_NOTIFICATION_ALL: '/Notification/getActive',
+  USSC_NOTIFICATION_GET_DETAILS: '/Notification/getDetails',
+  
   
   //LIFEGUARD
   USSC_LIFEGUARD_FEE_INQUIRY : '/LifeGuard/feeInquiry',
@@ -41,12 +43,18 @@ const constants = {
 
   NO_RESPONSE_MSG : 'Oops, you may have weak or no data connection ... Keep calm, wait for a few minutes and try again.',
   GENERIC_ERROR_MSG : 'Oops, you may have weak or no data connection ... Keep calm, wait for a few minutes and try again.',
+  OTP_TWO_MINUTES_MSG: 'Please wait for 2 minutes before the system can send an OTP.',
 
   UMSI_MONEYGRAM_BASE_URL : 'http://192.168.144.119:8000/api/moneygram/',
   UMSI_MONEYGRAM_API_KEY : 'a8e2fca9-e9b2-4175-919a-e5da7b36a648',
   
   UMSI_MONEYGRAM_GET_CODES : 'getcodes',
-  UMSI_MONEYGRAM_GET_FIELDS : 'getfields'
+  UMSI_MONEYGRAM_GET_FIELDS : 'getfields',
+
+  SMS_LIBRARY : 'CSP',
+  CSP_URL : 'http://192.168.205.77:8081/ussc-csp/public/api/send-sms',
+  CSP_API_KEY : '27qWRwcV0VUPXQoLjggHDoCTZqTiXVqRv4E5RK5XzEjxOMp15qDeNgqFrjIF'
+
 }
 
 module.exports = constants
